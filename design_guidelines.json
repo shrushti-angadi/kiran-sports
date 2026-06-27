@@ -3,8 +3,8 @@
   "archetype": "Archetype 2: The Performance Pro",
   "brand": {
     "name": "Kiran Sports",
-    "tagline": "ಕಿರಣ್ ಕ್ರೀಡೆ | Elite Sporting Goods",
-    "address": "1st Floor, LEA Complex, Civil Hospital Road, beside RLS School, Haliyal Naka, Alnavar, Dharwad, Hubballi, Karnataka 580001",
+    "tagline": "ಕಿರಣ್ ಸ್ಪೋರ್ಟ್ಸ್ | Elite Sporting Goods",
+    "address": "1st Floor, LEA Complex, Civil Hospital Road, beside RLS School, Dharwad, Hubballi, Karnataka 580001",
     "phone": "094483 60908",
     "currency": "₹"
   },
@@ -95,7 +95,7 @@
     },
     "shop": {
       "layout": "sidebar for filters (sports categories) on desktop, sticky top on mobile. Main area uses product_grid.",
-      "filters": "Categories: Cricket, Football, Tennis, Basketball, Volleyball."
+      "filters": "Categories: Cricket, Football, Tennis, Basketball, Volleyball,Handball,Throwball,T-shirts,Sublimation T-shirts,Costomize T-shirts,Tophies,Track pants,"
     },
     "about": {
       "layout": "Editorial style text mixed with large typography and store location bento box."
