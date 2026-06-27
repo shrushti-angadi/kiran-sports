@@ -1,0 +1,154 @@
+{
+  "theme": "dark",
+  "archetype": "Archetype 2: The Performance Pro",
+  "brand": {
+    "name": "Kiran Sports",
+    "tagline": "ಕಿರಣ್ ಕ್ರೀಡೆ | Elite Sporting Goods",
+    "address": "1st Floor, LEA Complex, Civil Hospital Road, beside RLS School, Haliyal Naka, Alnavar, Dharwad, Hubballi, Karnataka 580001",
+    "phone": "094483 60908",
+    "currency": "₹"
+  },
+  "colors": {
+    "background": {
+      "primary": "#0A0A0A",
+      "secondary": "#141414",
+      "tertiary": "#1A1A1A"
+    },
+    "text": {
+      "primary": "#FFFFFF",
+      "secondary": "#A3A3A3",
+      "accent": "#FF3B30",
+      "inverse": "#0A0A0A"
+    },
+    "brand": {
+      "primary": "#FF3B30",
+      "primary_hover": "#D62828",
+      "border": "rgba(255, 255, 255, 0.1)"
+    },
+    "status": {
+      "success": "#22C55E",
+      "error": "#EF4444"
+    }
+  },
+  "typography": {
+    "fonts": {
+      "heading": "Bebas Neue, sans-serif",
+      "body": "Outfit, sans-serif",
+      "mono": "JetBrains Mono, monospace"
+    },
+    "scales": {
+      "h1": "text-5xl sm:text-6xl tracking-tight leading-none uppercase",
+      "h2": "text-3xl sm:text-4xl tracking-tight leading-none uppercase",
+      "h3": "text-xl sm:text-2xl tracking-normal uppercase",
+      "body": "text-base leading-relaxed tracking-wide",
+      "small": "text-sm tracking-[0.05em]",
+      "overline": "text-xs tracking-[0.2em] uppercase font-bold"
+    }
+  },
+  "spacing_and_layout": {
+    "container": "max-w-7xl mx-auto px-6 sm:px-8",
+    "section_padding": "py-20 sm:py-32",
+    "grid": {
+      "bento_marketing": "grid grid-cols-1 md:grid-cols-12 gap-8",
+      "product_grid": "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6",
+      "admin_dashboard": "grid grid-cols-1 md:grid-cols-4 gap-6"
+    },
+    "surface": {
+      "card_style": "bg-[#141414] border border-white/10 rounded-none shadow-[0_4px_24px_rgba(0,0,0,0.4)]",
+      "glass": "backdrop-blur-xl bg-black/60 border-b border-white/10"
+    }
+  },
+  "components": {
+    "button": {
+      "primary": "bg-[#FF3B30] text-white hover:bg-[#D62828] transition-colors rounded-none font-bold uppercase tracking-wider px-8 py-4",
+      "secondary": "bg-transparent border border-white/20 text-white hover:border-white hover:bg-white/5 transition-colors rounded-none font-bold uppercase tracking-wider px-8 py-4",
+      "ghost": "text-gray-400 hover:text-white transition-colors uppercase text-sm font-bold tracking-widest"
+    },
+    "product_card": {
+      "wrapper": "group relative flex flex-col bg-[#141414] border border-white/5 hover:border-[#FF3B30]/50 transition-all duration-300",
+      "image_container": "relative aspect-[4/5] overflow-hidden bg-[#1A1A1A]",
+      "image": "object-cover w-full h-full group-hover:scale-105 transition-transform duration-500",
+      "content": "p-5 flex flex-col gap-2",
+      "title": "font-heading text-xl text-white uppercase truncate",
+      "price": "font-mono text-[#FF3B30] text-lg font-bold"
+    },
+    "navigation": {
+      "header": "fixed top-0 w-full z-50 backdrop-blur-xl bg-black/80 border-b border-white/10",
+      "links": "hidden md:flex gap-8 text-sm font-bold uppercase tracking-widest text-gray-300",
+      "link_hover": "hover:text-[#FF3B30] transition-colors"
+    },
+    "marquee": {
+      "wrapper": "overflow-hidden whitespace-nowrap bg-[#FF3B30] py-3 flex items-center",
+      "text": "text-black font-heading text-2xl uppercase tracking-widest px-8"
+    }
+  },
+  "pages": {
+    "home": {
+      "hero": {
+        "layout": "relative h-[90vh] flex items-center justify-center text-center overflow-hidden",
+        "overlay": "absolute inset-0 bg-gradient-to-b from-black/40 via-black/60 to-[#0A0A0A] z-10",
+        "content": "relative z-20 max-w-4xl px-6 flex flex-col items-center gap-6"
+      },
+      "featured_categories": {
+        "layout": "bento grid with high asymmetry. 1 large card (Cricket), 2 medium (Football, Basketball), 2 small (Tennis, Volleyball)."
+      }
+    },
+    "shop": {
+      "layout": "sidebar for filters (sports categories) on desktop, sticky top on mobile. Main area uses product_grid.",
+      "filters": "Categories: Cricket, Football, Tennis, Basketball, Volleyball."
+    },
+    "about": {
+      "layout": "Editorial style text mixed with large typography and store location bento box."
+    },
+    "contact": {
+      "layout": "Split screen: Left side Contact Form (Dark inputs, white text), Right side Google Maps embed + Address info box."
+    },
+    "admin": {
+      "layout": "Strict control room grid. Sidebar navigation. Dense data tables for products.",
+      "login": "Minimalist centered card, deep black background, sharp borders."
+    }
+  },
+  "media": {
+    "images": [
+      {
+        "category": "hero_banner",
+        "url": "https://images.pexels.com/photos/35801173/pexels-photo-35801173.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "description": "Cricketer under red lighting. Use as main hero background."
+      },
+      {
+        "category": "category_cricket",
+        "url": "https://images.unsplash.com/photo-1531415074968-036ba1b575da?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NzB8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwYmF0fGVufDB8fHx8MTc4MjUxNjU5Nnww&ixlib=rb-4.1.0&q=85",
+        "description": "Red cricket ball on grass"
+      },
+      {
+        "category": "category_football",
+        "url": "https://images.unsplash.com/photo-1516567727245-ad8c68f3ec93?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODh8MHwxfHNlYXJjaHwyfHxmb290YmFsbCUyMHRlbm5pcyUyMHNwb3J0cyUyMGVxdWlwbWVudHxlbnwwfHx8fDE3ODI1MTY1ODZ8MA&ixlib=rb-4.1.0&q=85",
+        "description": "Soccer ball on grass field"
+      },
+      {
+        "category": "category_tennis",
+        "url": "https://images.unsplash.com/photo-1627314387807-df615e8567de?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODh8MHwxfHNlYXJjaHwxfHxmb290YmFsbCUyMHRlbm5pcyUyMHNwb3J0cyUyMGVxdWlwbWVudHxlbnwwfHx8fDE3ODI1MTY1ODZ8MA&ixlib=rb-4.1.0&q=85",
+        "description": "Tennis ball on court"
+      },
+      {
+        "category": "category_basketball",
+        "url": "https://images.unsplash.com/photo-1627627256672-027a4613d028?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNDR8MHwxfHNlYXJjaHwxfHxiYXNrZXRiYWxsJTIwZGFya3xlbnwwfHx8fDE3ODI1MTY1OTZ8MA&ixlib=rb-4.1.0&q=85",
+        "description": "Basketball"
+      },
+      {
+        "category": "category_volleyball",
+        "url": "https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODF8MHwxfHNlYXJjaHwxfHx2b2xsZXliYWxsfGVufDB8fHx8MTc4MjUxNjU5N3ww&ixlib=rb-4.1.0&q=85",
+        "description": "Beach volleyball silhouettes"
+      },
+      {
+        "category": "about_store",
+        "url": "https://images.unsplash.com/photo-1590227632180-80a3bf110871?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNDR8MHwxfHNlYXJjaHwyfHxiYXNrZXRiYWxsJTIwZGFya3xlbnwwfHx8fDE3ODI1MTY1OTZ8MA&ixlib=rb-4.1.0&q=85",
+        "description": "Moody sports environment"
+      }
+    ]
+  },
+  "testing": {
+    "attributes": "All interactive elements MUST include a data-testid attribute formatted as kebab-case and role-based (e.g., data-testid='shop-now-button', data-testid='category-filter-cricket', data-testid='admin-login-submit')."
+  },
+  "instructions_to_main_agent": "1. Initialize Tailwind with #0A0A0A base background and text-white. 2. Import 'Bebas Neue' and 'Outfit' from Google Fonts. 3. Build a fixed glassmorphic header. 4. Use the provided images for Hero and Category sections. 5. Create a dynamic Marquee using react-fast-marquee showing the Kannada tagline. 6. Build the Admin dashboard using a dense layout, protecting it behind a simple mock login. 7. Do not use border-radius (keep rounded-none) for a brutalist athletic feel. 8. Ensure all buttons use the heavy, uppercase font styling. 9. Setup Shadcn components but strip rounded corners to match the athletic theme."
+}
