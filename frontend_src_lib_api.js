@@ -21,8 +21,8 @@ export const SHOP = {
   tagline: \"Elite Sporting Goods · Dharwad\",
   phone: \"094483 60908\",
   phoneIntl: \"919448360908\",
-  address: \"1st Floor, LEA Complex, Civil Hospital Road, beside RLS School, Haliyal Naka, Alnavar, Dharwad, Hubballi, Karnataka 580001\",
-  hours: \"Mon – Sat · 11:00 AM – 9:00 PM\",
+  address: \"1st Floor, LEA Complex, Civil Hospital Road, beside RLS School, Dharwad, Hubballi, Karnataka 580001\",
+  hours: \"Mon – Sat · 10:30 AM – 8:00 PM\",
   mapsEmbed: \"https://www.google.com/maps?q=Kiran+Sports+Dharwad+Karnataka&output=embed\",
   mapsLink: \"https://maps.google.com/?q=Kiran+Sports+Dharwad+Karnataka\",
 };
