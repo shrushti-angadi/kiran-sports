@@ -17,7 +17,7 @@ api.interceptors.request.use((config) => {
 
 export const SHOP = {
   name: \"Kiran Sports\",
-  kannada: \"ಕಿರಣ್ ಕ್ರೀಡೆ\",
+  kannada: \"ಕಿರಣ್ ಸ್ಪೋರ್ಟ್ಸ್\",
   tagline: \"Elite Sporting Goods · Dharwad\",
   phone: \"094483 60908\",
   phoneIntl: \"919448360908\",
